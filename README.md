@@ -1,2 +1,2 @@
 # python_tests
-learning some python.
+learning some python
