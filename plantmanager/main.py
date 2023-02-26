@@ -1,14 +1,17 @@
 import sys
 from data.Plant import *
-import datetime
-from service.plantService import *
+from service.plantService import PlantService
+from repository.plant_storage import PlantStorage
 
 
 def main():
     try:
-        plant = Plant("Monstera", WaterType.MEDIUM, datetime.datetime.now())
+        plantService = PlantService()
+        plantStorage = PlantStorage()
+        plant = plantStorage.getPlantById(4)
+
         print(plant)
-        waterPlant
+        plantService.waterPlant(plant)
         print(plant)
 
     except ValueError as ve:

@@ -11,6 +11,7 @@ class WaterType(Enum):
 
 @dataclass
 class Plant:
+    id: int
     name: str
     waterType: WaterType
     lastWatered: datetime

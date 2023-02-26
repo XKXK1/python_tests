@@ -10,7 +10,7 @@ class plant_manager_test(unittest.TestCase):
         # given
         plantService = PlantService()
 
-        testPlant = Plant("Monstera", WaterType.MEDIUM,
+        testPlant = Plant(1,"Monstera", WaterType.MEDIUM,
                           datetime.datetime.now())
         self.assertTrue(testPlant.needsWater)
 
