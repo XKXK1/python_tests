@@ -7,3 +7,4 @@ plantmanager/test/__pycache__/plant_manager_test.cpython-310.pyc
 .vscode/settings.json
 plantmanager/repository/__pycache__/plant_storage.cpython-310.pyc
 plantmanager/repository/__pycache__/__init__.cpython-310.pyc
+plantmanager/__pycache__/plant_manager_test.cpython-310.pyc
